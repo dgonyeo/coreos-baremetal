@@ -74,7 +74,7 @@ Continue to the [baremetal guide](physical-hardware.md) to use iPXE to boot PXE/
 
 #### Pixiecore
 
-[Pixiecore](https://github.com/danderson/pixiecore) is a newer service which implements a proxyDHCP server, TFTP server, and HTTP server all-in-one and calls through to an HTTP API. CoreOS `bootcfg` can serve Pixiecore JSON (optionally signed) based on the supplied MAC address, to implement the Pixiecore HTTP API.
+[Pixiecore](https://github.com/danderson/netboot/tree/master/pixiecore) is a newer service which implements a proxyDHCP server, TFTP server, and HTTP server all-in-one and calls through to an HTTP API. CoreOS `bootcfg` can serve Pixiecore JSON (optionally signed) based on the supplied MAC address, to implement the Pixiecore HTTP API.
 
 ## Network Environments
 
